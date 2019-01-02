@@ -1,0 +1,64 @@
+16:42:43 INFO  : Registering command handlers for SDK TCF services
+16:42:44 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\gabri\Desktop\CN\IDEA\IDEA.sdk\temp_xsdb_launch_script.tcl
+16:42:46 INFO  : XSCT server has started successfully.
+16:42:46 INFO  : Processing command line option -hwspec C:/Users/gabri/Desktop/CN/IDEA/IDEA.sdk/system_wrapper.hdf.
+16:42:46 INFO  : Successfully done setting XSCT server connection channel  
+16:42:46 INFO  : Successfully done setting SDK workspace  
+16:47:07 WARN  : Given IPC port value is invalid. Using default port 2350
+16:47:07 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+16:47:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:47:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:47:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:47:13 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+16:47:13 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:368)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+17:45:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:45:32 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+17:45:32 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:368)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+20:49:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:25:20 INFO  : Registering command handlers for SDK TCF services
+23:25:21 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\gabri\Desktop\CN\IDEA\IDEA.sdk\temp_xsdb_launch_script.tcl
+23:25:24 INFO  : XSCT server has started successfully.
+23:25:24 INFO  : Successfully done setting XSCT server connection channel  
+23:25:27 INFO  : Processing command line option -hwspec C:/Users/gabri/Desktop/CN/IDEA/IDEA.sdk/system_wrapper.hdf.
+23:25:27 INFO  : Successfully done setting SDK workspace  
+23:25:27 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
