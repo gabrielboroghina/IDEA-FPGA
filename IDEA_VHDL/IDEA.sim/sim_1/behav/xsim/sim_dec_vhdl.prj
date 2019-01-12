@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../IDEA.srcs/sources_1/new/types.vhd" \
+"../../../../IDEA.srcs/sources_1/new/IDEA_block.vhd" \
+"../../../../IDEA.srcs/sources_1/new/decrypt.vhd" \
+"../../../../IDEA.srcs/sources_1/new/decrypt_keys.vhd" \
+"../../../../IDEA.srcs/sources_1/new/encryption_keys.vhd" \
+"../../../../IDEA.srcs/sources_1/new/inv_mod.vhd" \
+"../../../../IDEA.srcs/sources_1/new/mul.vhd" \
+"../../../../IDEA.srcs/sim_1/new/sim_dec.vhd" \
+
+# Do not sort compile order
+nosort
