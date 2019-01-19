@@ -160,12 +160,14 @@ int main() {
 	init_platform();
 
     // parse input message
-    char msg_txt[64] = "0000010100110010000010100110010000010100110010000001100111111010";
+    char msg_txt[64] = "0000010100110010000010100110010000010100110010000001100111111010";    // decrypted message
+    // char msg_txt[64] = "0110010110111110100001111110011110100010010100111000101011101101"; // encrypted message
     for (int i = 0; i < 4; i++)
         for (int j = 0; j < 16; j++)
             msg[i] |= (msg_txt[i * 16 + j] == '1' ? 1 : 0) << (15 - j);
 
     encrypt();
+    // decrypt();
 
     cleanup_platform();
 

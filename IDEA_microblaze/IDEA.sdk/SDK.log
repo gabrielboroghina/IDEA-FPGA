@@ -62,3 +62,9 @@ com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
 23:25:27 INFO  : Processing command line option -hwspec C:/Users/gabri/Desktop/CN/IDEA/IDEA.sdk/system_wrapper.hdf.
 23:25:27 INFO  : Successfully done setting SDK workspace  
 23:25:27 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+19:19:49 INFO  : Registering command handlers for SDK TCF services
+19:19:50 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\gabri\Desktop\CN\IDEA\IDEA_microblaze\IDEA.sdk\temp_xsdb_launch_script.tcl
+19:19:53 INFO  : XSCT server has started successfully.
+19:19:56 INFO  : Successfully done setting XSCT server connection channel  
+19:19:56 INFO  : Processing command line option -hwspec C:/Users/gabri/Desktop/CN/IDEA/IDEA_microblaze/IDEA.sdk/system_wrapper.hdf.
+19:19:56 INFO  : Successfully done setting SDK workspace  
